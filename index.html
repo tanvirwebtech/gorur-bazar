@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Goru Shop</title>
+        <!-- bootstrap css-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="shortcut icon"
+            href="./images/logo.jpg"
+            type="image/x-icon"
+        />
+        <!-- Custom Styles  -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+    </head>
+    <body>
+        <header>
+            <nav
+                class="
+                    navbar navbar-expand-lg navbar-light
+                    bg-white
+                    fixed-top
+                    shadow
+                "
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="#"
+                        ><img src="./images/logo.jpg" alt=""
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-4 px-3">
+                                <a
+                                    id="custom-nav-link"
+                                    class="nav-link custom-nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >হোম</a
+                                >
+                            </li>
+                            <li class="nav-item mx-4 px-3">
+                                <a
+                                    id="custom-nav-link"
+                                    class="nav-link custom-nav-link"
+                                    href="#cows"
+                                    >গরু</a
+                                >
+                            </li>
+                            <li class="nav-item mx-4 px-3">
+                                <a
+                                    id="custom-nav-link"
+                                    class="nav-link custom-nav-link"
+                                    href="#goats"
+                                    >ছাগল</a
+                                >
+                            </li>
+                            <li class="nav-item mx-4 px-3">
+                                <a
+                                    id="custom-nav-link"
+                                    class="nav-link custom-nav-link"
+                                    href="#"
+                                    >সকল পশু</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="container h-100">
+                    <div class="row g-4 h-100">
+                        <div
+                            class="
+                                col-md-6 col-sm-12 col-12
+                                order-md-1 order-sm-2 order-2
+                                h-100
+                            "
+                        >
+                            <div
+                                class="
+                                    hero-info
+                                    h-100
+                                    d-md-flex d-sm-block
+                                    text-center text-md-start text-sm-center
+                                    flex-md-column
+                                    align-items-md-start
+                                    justify-content-center
+                                "
+                            >
+                                <h1 class="hero-heading">
+                                    দেশি গরুর ডিজিটাল বাজারে <br />
+                                    আপনাকে স্বাগতম
+                                </h1>
+                                <p class="my-4">
+                                    এই লকডাউনে ঘরে বসেই কোরবানির গরু কিনুন গরু
+                                    শপ থেকে। আমাদের কাছে পাবেন দেশের বিভিন্ন
+                                    স্থান থেকে আসা মোটাতাজা গরু ও ছাগল। সুলভ
+                                    মূল্যে কিনে নিন আপনার পছন্দের গরু।
+                                </p>
+                                <a
+                                    href="#"
+                                    class="
+                                        btn btn-dark
+                                        px-5
+                                        custom-btn
+                                        btn-custom-color
+                                    "
+                                    >সকল পশু
+                                    <i class="fas fa-arrow-right ms-3"></i
+                                ></a>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                col-md-6 col-sm-12 col-12
+                                order-md-2 order-sm-1 order-1
+                                d-flex
+                                align-items-center
+                            "
+                        >
+                            <div
+                                id="carouselExampleSlidesOnly"
+                                class="carousel slide"
+                                data-bs-ride="carousel"
+                            >
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img
+                                            class="img-fluid"
+                                            src="./images/cow-2.png"
+                                            alt="!i"
+                                        />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img
+                                            class="img-fluid"
+                                            src="./images/goat-4.png"
+                                            alt="!i"
+                                        />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img
+                                            class="img-fluid"
+                                            src="./images/cow-3.png"
+                                            alt="!i"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cows   -->
+
+            <section id="cows" class="my-5 pt-5">
+                <div class="container">
+                    <h2 class="text-center pb-3 mb-5 section-heading">
+                        দেশী গরু
+                    </h2>
+
+                    <div
+                        class="
+                            row
+                            row-cols-1
+                            row-cols-md-2
+                            row-cols-lg-3
+                            row-cols-sm-2
+                            g-4
+                        "
+                    >
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    custom-card
+                                    border-0
+                                    shadow-lg
+                                    h-100
+                                "
+                            >
+                                <img
+                                    src="./images/cow-1.png"
+                                    class="card-img-top mt-3"
+                                    alt=""
+                                />
+                                <div class="card-body m-4">
+                                    <h5 class="card-title">টাইগার মাসুদ</h5>
+                                    <p class="card-text">
+                                        খুবই সুন্দর ও পুষ্ট এই গরু টি আমাদের
+                                        স্টকে রয়েছে। বিক্রেতা একে নাম দিয়েছেন
+                                        টাইগার মাসুদ। এই ধরনের আরো গরু আমাদের
+                                        স্টকে রয়েছে। এটির ওজন ২০০কেজি। গরু কিনতে
+                                        চাইলে কিনুন বাটনে ক্লিক করে ওর্ডার
+                                        কনফার্ম করুন।
+                                    </p>
+                                    <h4 class="price">১,২০,০০০৳</h4>
+                                </div>
+                                <div class="card-footer border-0 m-4">
+                                    <button
+                                        class="
+                                            btn btn-dark btn-custom-color
+                                            custom-btn
+                                            px-5
+                                        "
+                                    >
+                                        কিনুন
+                                        <i class="fas fa-arrow-right ms-3"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    custom-card
+                                    border-0
+                                    shadow-lg
+                                    h-100
+                                "
+                            >
+                                <img
+                                    src="./images/cow-2.png"
+                                    class="card-img-top mt-3"
+                                    alt=""
+                                />
+                                <div class="card-body m-4">
+                                    <h5 class="card-title">সিংহ কাদের</h5>
+                                    <p class="card-text">
+                                        খুবই সুন্দর ও পুষ্ট এই গরু টি আমাদের
+                                        স্টকে রয়েছে। বিক্রেতা একে নাম দিয়েছেন
+                                        সিংহ কাদের। এই ধরনের আরো গরু আমাদের
+                                        স্টকে রয়েছে। এটির ওজন ২০০কেজি। গরু কিনতে
+                                        চাইলে কিনুন বাটনে ক্লিক করে ওর্ডার
+                                        কনফার্ম করুন।
+                                    </p>
+                                    <h4 class="price">১,৫০,০০০৳</h4>
+                                </div>
+                                <div class="card-footer border-0 m-4">
+                                    <button
+                                        class="
+                                            btn btn-dark btn-custom-color
+                                            custom-btn
+                                            px-5
+                                        "
+                                    >
+                                        কিনুন
+                                        <i class="fas fa-arrow-right ms-3"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    custom-card
+                                    border-0
+                                    shadow-lg
+                                    h-100
+                                "
+                            >
+                                <img
+                                    src="./images/cow-3.png"
+                                    class="card-img-top mt-3"
+                                    alt=""
+                                />
+                                <div class="card-body m-4">
+                                    <h5 class="card-title">বোকা আলম</h5>
+                                    <p class="card-text">
+                                        খুবই সুন্দর ও পুষ্ট এই গরু টি আমাদের
+                                        স্টকে রয়েছে। বিক্রেতা একে নাম দিয়েছেন
+                                        বোকা আলম। এই ধরনের আরো গরু আমাদের স্টকে
+                                        রয়েছে। এটির ওজন ১০০কেজি। গরু কিনতে চাইলে
+                                        কিনুন বাটনে ক্লিক করে ওর্ডার কনফার্ম
+                                        করুন।
+                                    </p>
+                                    <h4 class="price">৯০,০০০৳</h4>
+                                </div>
+                                <div class="card-footer border-0 m-4">
+                                    <button
+                                        class="
+                                            btn btn-dark btn-custom-color
+                                            custom-btn
+                                            px-5
+                                        "
+                                    >
+                                        কিনুন
+                                        <i class="fas fa-arrow-right ms-3"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Goat  -->
+            <section id="goats" class="my-5 pt-5">
+                <div class="container">
+                    <h2 class="text-center pb-3 mb-5 section-heading">
+                        দেশী ছাগল
+                    </h2>
+
+                    <div
+                        class="
+                            row
+                            row-cols-1
+                            row-cols-md-2
+                            row-cols-lg-3
+                            row-cols-sm-2
+                            g-4
+                        "
+                    >
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    custom-card
+                                    border-0
+                                    shadow-lg
+                                    h-100
+                                "
+                            >
+                                <img
+                                    src="./images/goat-1.png"
+                                    class="card-img-top mt-3"
+                                    alt=""
+                                />
+                                <div class="card-body m-4">
+                                    <h5 class="card-title">পাগলা সাহেদ</h5>
+                                    <p class="card-text">
+                                        খুবই সুন্দর ও পুষ্ট এই ছাগল টি আমাদের
+                                        স্টকে রয়েছে। বিক্রেতা একে নাম দিয়েছেন
+                                        পাগলা সাহেদ। এই ধরনের আরো গরু আমাদের
+                                        স্টকে রয়েছে। এটির ওজন ২০০কেজি। গরু কিনতে
+                                        চাইলে কিনুন বাটনে ক্লিক করে ওর্ডার
+                                        কনফার্ম করুন।
+                                    </p>
+                                    <h4 class="price">২০,০০০৳</h4>
+                                </div>
+                                <div class="card-footer border-0 m-4">
+                                    <button
+                                        class="
+                                            btn btn-dark btn-custom-color
+                                            custom-btn
+                                            px-5
+                                        "
+                                    >
+                                        কিনুন
+                                        <i class="fas fa-arrow-right ms-3"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    custom-card
+                                    border-0
+                                    shadow-lg
+                                    h-100
+                                "
+                            >
+                                <img
+                                    src="./images/goat-3.png"
+                                    class="card-img-top mt-3"
+                                    alt=""
+                                />
+                                <div class="card-body m-4">
+                                    <h5 class="card-title">ঘুষি মির্জা</h5>
+                                    <p class="card-text">
+                                        খুবই সুন্দর ও পুষ্ট এই ছাগল টি আমাদের
+                                        স্টকে রয়েছে। বিক্রেতা একে নাম দিয়েছেন
+                                        ঘুষি মির্জা। এই ধরনের আরো গরু আমাদের
+                                        স্টকে রয়েছে। এটির ওজন ২০০কেজি। গরু কিনতে
+                                        চাইলে কিনুন বাটনে ক্লিক করে ওর্ডার
+                                        কনফার্ম করুন।
+                                    </p>
+                                    <h4 class="price">১০,০০০৳</h4>
+                                </div>
+                                <div class="card-footer border-0 m-4">
+                                    <button
+                                        class="
+                                            btn btn-dark btn-custom-color
+                                            custom-btn
+                                            px-5
+                                        "
+                                    >
+                                        কিনুন
+                                        <i class="fas fa-arrow-right ms-3"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    custom-card
+                                    border-0
+                                    shadow-lg
+                                    h-100
+                                "
+                            >
+                                <img
+                                    src="./images/goat-4.png"
+                                    class="card-img-top mt-3"
+                                    alt=""
+                                />
+                                <div class="card-body m-4">
+                                    <h5 class="card-title">ছাগল খান</h5>
+                                    <p class="card-text">
+                                        খুবই সুন্দর ও পুষ্ট এই ছাগল টি আমাদের
+                                        স্টকে রয়েছে। বিক্রেতা একে নাম দিয়েছেন
+                                        ছাগল খান। এই ধরনের আরো গরু আমাদের স্টকে
+                                        রয়েছে। এটির ওজন ১০০কেজি। গরু কিনতে চাইলে
+                                        কিনুন বাটনে ক্লিক করে ওর্ডার কনফার্ম
+                                        করুন।
+                                    </p>
+                                    <h4 class="price">২০,০০০৳</h4>
+                                </div>
+                                <div class="card-footer border-0 m-4">
+                                    <button
+                                        class="
+                                            btn btn-dark btn-custom-color
+                                            custom-btn
+                                            px-5
+                                        "
+                                    >
+                                        কিনুন
+                                        <i class="fas fa-arrow-right ms-3"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="py-5 mt-5">
+            <div class="container">
+                <p class="text-center copyright-text">
+                    Copyright &copy; 2021. All right reserved by Site owner
+                </p>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://kit.fontawesome.com/812c1bc08f.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

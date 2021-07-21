@@ -1,0 +1,84 @@
+@import url(fonts.css);
+html {
+    font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Sornaly";
+    font-weight: 700;
+}
+a,
+p,
+span,
+.custom-btn {
+    font-family: "Sagar";
+    font-size: 2rem;
+}
+#custom-nav-link {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: darkslategray;
+}
+#custom-nav-link:hover {
+    color: #5d2f91;
+    transition: color 0.3s;
+}
+#hero {
+    margin-top: 111px;
+    height: 600px;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-heading {
+    font-size: 6rem;
+    font-weight: 700;
+}
+.section-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    position: relative;
+}
+.section-heading::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #5d2f91;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+.custom-card {
+    border-radius: 15px;
+}
+.card-title {
+    font-size: 3rem;
+    color: #5d2f91;
+}
+.price {
+    font-family: "Sagar";
+    font-size: 2rem;
+    font-weight: 700;
+}
+.btn-custom-color {
+    border: 1px solid #5d2f91;
+    background-color: #5d2f91;
+    color: #fff;
+}
+.btn-custom-color:hover {
+    border: 1px solid #5d2f91;
+    background-color: #fff;
+    color: #5d2f91;
+}
+.copyright-text {
+    font-size: 1.6rem;
+}
+.fas {
+    font-size: 1.6rem;
+}
